@@ -27,5 +27,10 @@
 	"require" : {
 		"php" : ">=5.3.10",
 		"guzzlehttp/guzzle" : "~6.0"
-	}
+	},
+    "autoload" : {
+        "psr-4" : {
+			"oat\\prePsr\\httpMiddlewares\\" : "src/"
+        }
+    }
 }
